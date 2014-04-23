@@ -1,0 +1,21 @@
+{
+    "app": {
+        "version": "0.0.1",
+        "mode": "staging",
+        "name":"phonegapAngularApp",
+        "lang":"es",
+        "staging": {
+            "serviceUrl": "",
+            "pollInterval":"",
+            "serviceTimeout":""
+        },
+        "production": {
+              "serviceUrl": "",
+              "pollInterval":"",
+            "serviceTimeout":""
+        }
+    }
+}
+
+
+
