@@ -1,15 +1,16 @@
 yeoman - angularjs - phonegap - ionic
 =====================================
 
-An skeleton project for using phonegap with angularjs,ionic and yeoman workflow
-The grunt build task is combined with grunt-angular-phonegap
+A skeleton project for using phonegap with angularjs,ionic and yeoman workflow
+The grunt build task is combined with grunt-angular-phonegap to build and deploy in device emulators
 
 ## Prerequisites
 
 Assuming you have the following dependencies installed already.
 
-1.NodeJs
-2.git
+1. NodeJs
+
+2. git
 
 
 
@@ -33,7 +34,8 @@ Assuming you have the following dependencies installed already.
 
 ## From grunt-angular-phonegap documentation
 
-see a detailed usage document from (https://github.com/dsimard/grunt-angular-phonegap/blob/master/README.md)
+see a detailed usage document from https://github.com/dsimard/grunt-angular-phonegap/blob/master/README.md
+
 1. Build the project
 
         grunt phonegap:build
