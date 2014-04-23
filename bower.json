@@ -1,11 +1,10 @@
 {
-  "name": "phonegap-app",
+  "name": "yeoman-angularjs-phonegap-ionic",
   "version": "0.0.0",
   "dependencies": {
     "angular": "1.2.6",
-    "json3": "~3.2.6",
-    "es5-shim": "~2.1.0",
-    "angular-route": "1.2.6"
+    "angular-route": "1.2.6",
+    "ionic": "latest"
   },
   "devDependencies": {
     "angular-mocks": "1.2.6",
