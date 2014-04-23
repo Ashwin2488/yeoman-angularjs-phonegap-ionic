@@ -33,7 +33,7 @@ Assuming you have the following dependencies installed already.
 
 ## From grunt-angular-phonegap documentation
 
-see a detailed usage document from https://github.com/dsimard/grunt-angular-phonegap/blob/master/README.md
+see a detailed usage document from (https://github.com/dsimard/grunt-angular-phonegap/blob/master/README.md)
 1. Build the project
 
         grunt phonegap:build
