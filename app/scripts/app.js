@@ -12,7 +12,7 @@
  * --------------------------------------------------------------
  */
 //making sure the config is available before angular bootstrapping
-
+'use strict';
 angular.element(document).ready(function() {
   var initInjector = angular.injector(['ng']);
   var $http = initInjector.get('$http');
@@ -25,11 +25,16 @@ angular.element(document).ready(function() {
 
 // Define all your modules
 
-angular.module('HomeScreen', []);
+angular.module('Playlist', []);
+angular.module('Search', []);
 
 
 // Lastly, define your "main" module and inject all other modules as dependencies
 angular.module('phonegapAngularApp', [
-  'HomeScreen',
-  'ngRoute'
+  'Playlist',
+  'Search',
+  'ngRoute',
+  'ionic',
+  'ngAnimate',
+  'ui.router'
 ]);

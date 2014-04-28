@@ -1,4 +1,4 @@
-/* Name: main-screen-controller.js
+/* Name: search-controller.js
  * Module: Recharge
  * Version: 1.0
  * Author: Prokarma
@@ -12,7 +12,9 @@
  * intended publication of such source code.
  * --------------------------------------------------------------
  */
-angular.module('HomeScreen').controller('homeScreenController', function($scope, $rootScope) {
+angular.module('Search').controller('searchController', function($scope, $rootScope,$ionicSideMenuDelegate) {
+  console.log('searchController');
+
 
 
 })
