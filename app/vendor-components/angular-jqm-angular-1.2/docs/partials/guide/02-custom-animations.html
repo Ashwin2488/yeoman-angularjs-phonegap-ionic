@@ -1,0 +1,26 @@
+<h1><code ng:non-bindable=""></code>
+<div><span class="hint"></span>
+</div>
+</h1>
+<div><div class="custom-animations-page"><p>You can add your own animations. Here&#39;s how we would add our own animation called &#39;banana&#39;, which fades in an element from 0.5 opacity to 1 opacity.</p>
+<pre><code>\@keyframes bananain {
+  from { opacity: 0.5; }
+  to { opacity: 1.0; }
+}
+\@keyframes bananaout {
+  from { opacity: 1.0; }
+  to { opacity: 0.5; }
+}
+.banana.in,
+.banana.out.reverse {
+  animation: bananain 350ms;
+}
+.banana.out,
+.banana.in.reverse {
+  animation: bananaout 350ms;
+}</code></pre>
+<p>And then, with the CSS included, you just need to tell angular-jqm that we have a new animation
+class to register.</p>
+<pre><code>JQM_ANIMATIONS.push(&#39;banana&#39;);</code></pre>
+<p>Now you have a new &#39;banana&#39; animation, ready to use in page transitions or as a normal animation in something like ng-repeat.</p>
+</div></div>
