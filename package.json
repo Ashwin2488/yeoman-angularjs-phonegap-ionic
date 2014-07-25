@@ -1,5 +1,5 @@
 {
-  "name": "phonegapshake",
+  "name": "yeoman-ionic",
   "version": "0.0.0",
   "dependencies": {},
   "devDependencies": {
@@ -31,8 +31,5 @@
   },
   "engines": {
     "node": ">=0.10.0"
-  },
-  "scripts": {
-    "test": "grunt test"
   }
 }
